@@ -6,18 +6,14 @@ Não há SDK oficial para Ruby; este projeto preenche essa lacuna com uma interf
 
 ## Instalação
 
-Ainda não publicada no RubyGems. Por enquanto, use direto do GitHub:
-
-```ruby
-# Gemfile
-gem "linear_client", github: "ferretto/linear_client"
+```bash
+gem install linear_client
 ```
 
-ou clone e exija localmente:
+ou no Gemfile:
 
 ```ruby
-$LOAD_PATH.unshift File.expand_path("linear_client/lib", __dir__)
-require "linear_client"
+gem "linear_client"
 ```
 
 ## Configuração
