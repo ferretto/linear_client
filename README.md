@@ -82,6 +82,15 @@ client.viewer
 
 Todos os métodos lançam `LinearClient::Client::Error` se a API retornar erros GraphQL.
 
+## Testes
+
+Suíte em RSpec, com [WebMock](https://github.com/bblimke/webmock) simulando as respostas da API (nenhum teste bate na rede real):
+
+```bash
+bundle install
+bundle exec rspec
+```
+
 ## Scripts de exemplo
 
 ```bash

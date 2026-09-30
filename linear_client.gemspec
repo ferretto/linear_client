@@ -23,4 +23,8 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|\.github)/}) }
   end
   spec.require_paths = ["lib"]
+
+  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rspec", "~> 3.13"
+  spec.add_development_dependency "webmock", "~> 3.26"
 end
